@@ -4,9 +4,8 @@ class Hello {
         sayHello()
     }
 
-
     static void sayHello() {
-        println "Hello world"
+        println 'Hello world'
     }
 
 }

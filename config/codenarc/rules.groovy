@@ -1,7 +1,11 @@
 ruleset {
     ruleset('rulesets/basic.xml')
     ruleset('rulesets/braces.xml')
-    ruleset('rulesets/convention.xml')
+    ruleset('rulesets/convention.xml') {
+        'CompileStatic' {
+            enabled = false
+        }
+    }
     ruleset('rulesets/design.xml')
     ruleset('rulesets/dry.xml')
     ruleset('rulesets/exceptions.xml')

@@ -18,7 +18,8 @@ repositories {
 codenarc {
     toolVersion = '1.4'
     configFile = file("config/codenarc/rules.groovy")
-    reportFormat = 'html'
+    reportsDir = new File("build/reports/codenarc")
+    reportFormat = 'xml'
     ignoreFailures = true
 }
 

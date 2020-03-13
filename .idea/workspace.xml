@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ff81c9e-bd8f-4452-b8cc-5d0e7cf94779" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleSample" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleSample" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleSample" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GradleSample" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectId" id="1YyjzCdjuiJXEUuwku4wLQg9EM6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.39469808" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Hello">
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="GradleSample.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradleSample [checkSrc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="checkSrc" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GradleSample [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="check" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GradleSample [convert]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="convert" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GradleSample [fromAnt]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="fromAnt" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Gradle.GradleSample [fromAnt]" />
+        <item itemvalue="Gradle.GradleSample [checkSrc]" />
+        <item itemvalue="Gradle.GradleSample [check]" />
+        <item itemvalue="Gradle.GradleSample [convert]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ff81c9e-bd8f-4452-b8cc-5d0e7cf94779" name="Default Changelist" comment="" />
+      <created>1583921987187</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583921987187</updated>
+      <workItem from="1583921989037" duration="4468000" />
+      <workItem from="1583937356947" duration="750000" />
+      <workItem from="1584002469023" duration="1206000" />
+      <workItem from="1584003684875" duration="33000" />
+      <workItem from="1584003777955" duration="47000" />
+      <workItem from="1584003830391" duration="7296000" />
+      <workItem from="1584095123983" duration="155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1368" y="181" key="#Project_Structure" timestamp="1584003521510">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state x="-1368" y="181" key="#Project_Structure/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584003521510" />
+    <state x="-1328" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584004573510">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state x="-1328" y="212" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584004573510" />
+    <state x="-1240" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584003799760">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state x="-1240" y="449" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584003799760" />
+    <state x="-1180" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584003708843">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state x="-1180" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584003708843" />
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1584095260224">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584095260224" />
+    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1584095260224">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584095260224" />
+    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1584095260224">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584095260224" />
+    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1584095260224">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="225" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584095260224" />
+    <state width="1877" height="180" key="GridCell.Tab.1.bottom" timestamp="1584019150542">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="180" key="GridCell.Tab.1.bottom/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584019150542" />
+    <state width="1877" height="180" key="GridCell.Tab.1.center" timestamp="1584019150542">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="180" key="GridCell.Tab.1.center/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584019150542" />
+    <state width="1877" height="180" key="GridCell.Tab.1.left" timestamp="1584019150542">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="180" key="GridCell.Tab.1.left/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584019150542" />
+    <state width="1877" height="180" key="GridCell.Tab.1.right" timestamp="1584019150542">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state width="1877" height="180" key="GridCell.Tab.1.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584019150542" />
+    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584003792156">
+      <screen x="-1920" y="0" width="1920" height="1030" />
+    </state>
+    <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584003792156" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/5.2.1/generated-gradle-jars/gradle-api-5.2.1.jar!/org/gradle/api/plugins/quality/CodeNarc.class</url>
+          <line>150</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

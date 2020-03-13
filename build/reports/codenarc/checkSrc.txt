@@ -1,0 +1,11 @@
+CodeNarc Report - Mar 12, 2020 12:50:32 PM
+
+Summary: TotalFiles=1 FilesWithViolations=1 P1=0 P2=1 P3=3
+
+File: main/groovy/Hello.groovy
+    Violation: Rule=CompileStatic P=2 Line=1 Msg=[Class should be marked with one of @GrailsCompileStatic, @CompileStatic or @CompileDynamic] Src=[class Hello {]
+    Violation: Rule=ClassStartsWithBlankLine P=3 Line=2 Msg=[Class does not start with a blank line after the opening brace] Src=[    void sayHello() {]
+    Violation: Rule=UnnecessaryGString P=3 Line=3 Msg=[The String 'Hello world' can be wrapped in single quotes instead of double quotes] Src=[println "Hello world"]
+    Violation: Rule=FileEndsWithoutNewline P=3 Line=5 Msg=[File Hello.groovy does not end with a newline] Src=[}]
+
+[CodeNarc (http://www.codenarc.org) v1.4]

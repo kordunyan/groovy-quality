@@ -1,0 +1,46 @@
+
+
+plugins {
+    id 'groovy'
+    id 'java'
+    id 'codenarc'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+codenarc {
+    toolVersion = '1.4'
+    configFile = file("config/codenarc/rules.groovy")
+    reportFormat = 'xml'
+    ignoreFailures = true
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+
+task fromAnt(type: sample.InfoTask) {
+
+}
+
+task checkSrc(type: CodeNarc) {
+    maxPriority1Violations = 0
+    maxPriority2Violations = 0
+
+    includes = ['**/*.groovy']
+
+    source([fileTree('src')])
+}
+
+dependencies {
+    compile 'org.codenarc:CodeNarc:1.5'
+}

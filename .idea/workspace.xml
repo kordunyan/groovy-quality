@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff81c9e-bd8f-4452-b8cc-5d0e7cf94779" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +198,7 @@
       <workItem from="1584003684875" duration="33000" />
       <workItem from="1584003777955" duration="47000" />
       <workItem from="1584003830391" duration="7296000" />
-      <workItem from="1584095123983" duration="3788000" />
+      <workItem from="1584095123983" duration="4062000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Violations">
       <created>1584103135293</created>
@@ -223,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584103782001</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed Violations">
+      <created>1584105593989</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584105593989</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,10 +266,10 @@
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state x="-1180" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584003708843" />
-    <state x="-1331" y="118" key="CommitChangelistDialog2" timestamp="1584103779641">
+    <state x="-1331" y="118" key="CommitChangelistDialog2" timestamp="1584105592329">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1331" y="118" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584103779641" />
+    <state x="-1331" y="118" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584105592329" />
     <state width="1877" height="339" key="GridCell.Tab.0.bottom" timestamp="1584103753954">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
@@ -297,10 +302,10 @@
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state width="1877" height="180" key="GridCell.Tab.1.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584019150542" />
-    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584103783370">
+    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584105595823">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584103783370" />
+    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584105595823" />
     <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584003792156">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>

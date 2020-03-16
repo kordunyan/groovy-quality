@@ -13,7 +13,7 @@ sourceCompatibility = 1.8
 
 if (!ext.has('checkStyleIgnoreFailurse')) {
     println "---- No checkStyleIgnoreFailurse variable"
-    ext.checkStyleIgnoreFailurse = true
+    ext.checkStyleIgnoreFailurse = false
 }
 
 repositories {

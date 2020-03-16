@@ -11,6 +11,10 @@ version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
+if (!ext.has('checkStyleIgnoreFailurse')) {
+    ext.checkStyleIgnoreFailurse = true
+}
+
 repositories {
     mavenCentral()
 }
@@ -20,7 +24,7 @@ codenarc {
     configFile = file("config/codenarc/rules.groovy")
     reportsDir = new File("reports/codenarc")
     reportFormat = 'xml'
-    ignoreFailures = true
+    ignoreFailures = checkStyleIgnoreFailurse
 }
 
 dependencies {
@@ -33,6 +37,12 @@ task fromAnt(type: sample.InfoTask) {
 
 }
 
+task showVariables {
+    doLast {
+        println checkStyleIgnoreFailurse
+    }
+}
+
 task checkSrc(type: CodeNarc) {
     maxPriority1Violations = 0
     maxPriority2Violations = 0
@@ -41,6 +51,7 @@ task checkSrc(type: CodeNarc) {
 
     source([fileTree('src')])
 }
+
 
 dependencies {
     compile 'org.codenarc:CodeNarc:1.5'

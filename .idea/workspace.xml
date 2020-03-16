@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff81c9e-bd8f-4452-b8cc-5d0e7cf94779" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +231,7 @@
       <workItem from="1584107926470" duration="113000" />
       <workItem from="1584108079431" duration="3314000" />
       <workItem from="1584350866971" duration="1127000" />
-      <workItem from="1584352950033" duration="2729000" />
+      <workItem from="1584352950033" duration="2958000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Violations">
       <created>1584103135293</created>
@@ -288,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584355349936</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added cehckFailure variables">
+      <created>1584355721203</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584355721203</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,10 +338,10 @@
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state x="-1178" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584108022121" />
-    <state x="-1331" y="118" key="CommitChangelistDialog2" timestamp="1584355348074">
+    <state x="-1331" y="118" key="CommitChangelistDialog2" timestamp="1584355719394">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1331" y="118" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584355348074" />
+    <state x="-1331" y="118" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584355719394" />
     <state width="1877" height="205" key="GridCell.Tab.0.bottom" timestamp="1584355708027">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
@@ -377,10 +378,10 @@
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state x="-1516" y="224" key="SettingsEditor/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584108043682" />
-    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584355351603">
+    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584355722780">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584355351603" />
+    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584355722780" />
     <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584351068548">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>

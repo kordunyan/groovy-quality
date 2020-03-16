@@ -25,7 +25,7 @@ codenarc {
     configFile = file("config/codenarc/rules.groovy")
     reportsDir = new File("reports/codenarc")
     reportFormat = 'xml'
-    ignoreFailures = false
+    ignoreFailures = checkStyleIgnoreFailurse
 }
 
 dependencies {

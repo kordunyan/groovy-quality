@@ -12,6 +12,7 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 if (!ext.has('checkStyleIgnoreFailurse')) {
+    println "---- No checkStyleIgnoreFailurse variable"
     ext.checkStyleIgnoreFailurse = true
 }
 

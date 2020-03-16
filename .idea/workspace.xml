@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff81c9e-bd8f-4452-b8cc-5d0e7cf94779" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -99,7 +104,7 @@
       <command value="gradle build showVariables -PcheckStyleIgnoreFailurse=false" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GradleSample [checkSrc]">
+  <component name="RunManager" selected="Gradle.GradleSample [build checkSrc]">
     <configuration name="GradleSample [afterCompilation]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -115,6 +120,26 @@
           </list>
         </option>
         <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GradleSample [build checkSrc]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--project-prop checkStyleIgnoreFailurse=false" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+            <option value="checkSrc" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
@@ -135,25 +160,6 @@
           </list>
         </option>
         <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GradleSample [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
@@ -198,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GradleSample [build checkSrc]" />
         <item itemvalue="Gradle.GradleSample [build showVariables]" />
         <item itemvalue="Gradle.GradleSample [checkSrc]" />
         <item itemvalue="Gradle.GradleSample [showVariables]" />
         <item itemvalue="Gradle.GradleSample [afterCompilation]" />
-        <item itemvalue="Gradle.GradleSample [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +237,7 @@
       <workItem from="1584107926470" duration="113000" />
       <workItem from="1584108079431" duration="3314000" />
       <workItem from="1584350866971" duration="1127000" />
-      <workItem from="1584352950033" duration="3802000" />
+      <workItem from="1584352950033" duration="4068000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed Violations">
       <created>1584103135293</created>
@@ -303,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584356060564</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added cehckFailure variables">
+      <created>1584359427251</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1584359427251</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,26 +365,26 @@
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state x="-1178" y="364" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584108022121" />
-    <state x="-1331" y="118" key="CommitChangelistDialog2" timestamp="1584356058396">
+    <state x="-1331" y="118" key="CommitChangelistDialog2" timestamp="1584359425527">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1331" y="118" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584356058396" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1584359414861">
+    <state x="-1331" y="118" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359425527" />
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom" timestamp="1584359702565">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359414861" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1584359414861">
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359702565" />
+    <state width="1877" height="312" key="GridCell.Tab.0.center" timestamp="1584359702565">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359414861" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1584359414861">
+    <state width="1877" height="312" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359702565" />
+    <state width="1877" height="312" key="GridCell.Tab.0.left" timestamp="1584359702565">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359414861" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1584359414861">
+    <state width="1877" height="312" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359702565" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right" timestamp="1584359702565">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359414861" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359702565" />
     <state width="1877" height="180" key="GridCell.Tab.1.bottom" timestamp="1584019150542">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
@@ -392,18 +405,18 @@
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state x="-1516" y="224" key="SettingsEditor/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584108043682" />
-    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584356061951">
+    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584359428828">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584356061951" />
+    <state x="-1368" y="256" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359428828" />
     <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584351068548">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
     <state x="-1252" y="347" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584351068548" />
-    <state x="-1100" y="297" width="672" height="677" key="run.anything.popup" timestamp="1584355524784">
+    <state x="-1100" y="297" width="672" height="677" key="run.anything.popup" timestamp="1584359686649">
       <screen x="-1920" y="0" width="1920" height="1030" />
     </state>
-    <state x="-1100" y="297" width="672" height="677" key="run.anything.popup/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584355524784" />
+    <state x="-1100" y="297" width="672" height="677" key="run.anything.popup/-1920.0.1920.1030/0.0.1536.824@-1920.0.1920.1030" timestamp="1584359686649" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

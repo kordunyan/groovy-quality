@@ -13,7 +13,7 @@ sourceCompatibility = 1.8
 
 if (!ext.has('checkStyleIgnoreFailurse')) {
     println "---- No checkStyleIgnoreFailurse variable"
-    ext.checkStyleIgnoreFailurse = false
+    ext.checkStyleIgnoreFailurse = true
 }
 
 repositories {
@@ -25,7 +25,6 @@ codenarc {
     configFile = file("config/codenarc/rules.groovy")
     reportsDir = new File("reports/codenarc")
     reportFormat = 'xml'
-    ignoreFailures = checkStyleIgnoreFailurse.toBoolean()
 }
 
 dependencies {
@@ -47,6 +46,7 @@ task showVariables {
 task checkSrc(type: CodeNarc) {
     maxPriority1Violations = 0
     maxPriority2Violations = 0
+    ignoreFailures = checkStyleIgnoreFailurse.toBoolean()
 
     includes = ['**/*.groovy']
 
